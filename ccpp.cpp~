@@ -206,6 +206,7 @@ outfile << "#include <map>\n\
 #include <bitset>\n\
 #include <cstdio>\n\
 #include <limits>\n\
+reate_problem_files(char *dirnamenclude <vector>\n\
 #include <climits>\n\
 #include <cstring>\n\
 #include <cstdlib>\n\
