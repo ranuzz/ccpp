@@ -48,7 +48,9 @@ int main()
                         [](const bs& r) { return ((r.weight >= girl_wt) && (r.temp <= girl_temp)); });
     
         if (elem != v.end()) {
-            cout << (*elem).weight << " " << (*elem).temp << endl;
+            //cout << (*elem).weight << " " << (*elem).temp << endl;
+            int a = elem - v.begin() + 1;
+            cout << a  << " ";
             elem++;
         }
     } while (elem != v.end());
