@@ -165,7 +165,7 @@ char *create_and_change_dir(char *dirname, const char *subdir)
 
 void create_program_files(char *dirname)
 {
-	const char *subdir = "programs";
+	const char *subdir = "implementations";
 	char *dir_buffer = create_and_change_dir(dirname, subdir);
 	if (dir_buffer == NULL) {
 		exit(0);
