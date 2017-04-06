@@ -235,7 +235,7 @@ int main(int argc, char **argv)
 		exit(0);
 	}
 	generate_graph(graph, vertex, density);
-	//print_graph(graph, vertex);
+	print_graph(graph, vertex);
 
 	cout << endl;
 	cout << "Finding path ["<<source << "] -> [" << destination <<"]" << endl;
